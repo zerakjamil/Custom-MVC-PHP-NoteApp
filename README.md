@@ -1,35 +1,61 @@
-Description
-This is a custom Model-View-Controller (MVC) PHP note-taking application. It allows users to create, read, update, and delete notes. The application follows the MVC architecture, providing separation of concerns between the data (Model), the presentation (View), and the application logic (Controller).
+# Custom MVC PHP Note-Taking Application
 
-Installation
-Clone the repository:
+This is a custom Model-View-Controller (MVC) PHP note-taking application. It allows users to create, read, update, and delete notes. The application follows the MVC architecture, providing a clear separation of concerns between the data (Model), the presentation (View), and the application logic (Controller).
 
-bash
-Copy code
-git clone https://github.com/zerakjamil/Custom-MVC-PHP-NoteApp.git
-Create a MySQL database named myapp.
+## Table of Contents
+- [Description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Import the necessary SQL codes located in the sql folder into the myapp database.
+## Description
+This note-taking application is designed with the MVC pattern to ensure a modular and maintainable codebase. Users can manage their notes efficiently with features to create, read, update, and delete notes.
 
-Usage
-Navigate to the project directory:
+## Installation
+1. **Clone the repository**
+    ```sh
+    git clone https://github.com/zerakjamil/Custom-MVC-PHP-NoteApp.git
+    ```
 
-bash
-Copy code
-cd the project
-Start the PHP server:
+2. **Create a MySQL database**
+    - Name the database `myapp`.
 
-bash
-Copy code
-php -S localhost:8000 -t public
-Open your web browser and go to http://localhost:8000 to access the application.
+3. **Import the necessary SQL codes**
+    - Import the SQL files located in the `sql` folder into the `myapp` database.
 
-Contributing
+## Usage
+1. **Navigate to the project directory**
+    ```sh
+    cd Custom-MVC-PHP-NoteApp
+    ```
+
+2. **Start the PHP server**
+    ```sh
+    php -S localhost:8000 -t public
+    ```
+
+3. **Access the application**
+    - Open your web browser and go to [http://localhost:8000](http://localhost:8000).
+
+## Contributing
 If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature)
-Make your changes.
-Commit your changes (git commit -am 'Add feature')
-Push to the branch (git push origin feature)
-Create a new Pull Request.
+1. Fork the repository.
+2. Create a new branch:
+    ```sh
+    git checkout -b feature
+    ```
+3. Make your changes.
+4. Commit your changes:
+    ```sh
+    git commit -am 'Add feature'
+    ```
+5. Push to the branch:
+    ```sh
+    git push origin feature
+    ```
+6. Create a new Pull Request.
+7. 
+
+Made with ❤️ by [Zerak Jamil](https://github.com/zerakjamil)
